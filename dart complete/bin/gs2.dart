@@ -28,7 +28,7 @@ void main() {
 
 class Mobile {
   // Instance Variable
-  String model;
+  late String model;
   int ram = 4;
 
   // Instance Method
@@ -42,7 +42,7 @@ class Mobile {
 
   // Static Method
   static addExtraMemory(extra) {
-    memory = memory + extra;
+    memory + (memory + extra);
     return memory;
   }
 }
