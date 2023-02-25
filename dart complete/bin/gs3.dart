@@ -23,8 +23,8 @@ void main() {
 
 class Mobile {
   // Instance Variable
-  String model;
-  int ram;
+  late String model;
+  late int ram;
 
   // Constructor
   Mobile(m, r) {
