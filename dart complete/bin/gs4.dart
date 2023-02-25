@@ -8,7 +8,7 @@ void main() {
 
 // Parent Class / Super Class
 class Father {
-  int money;
+  late int money;
   getValue(m) {
     money = m;
   }

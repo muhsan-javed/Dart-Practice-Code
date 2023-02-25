@@ -12,7 +12,7 @@ void main() {
 
 // Parent Class
 class Father {
-  int money;
+  late int money;
   getValue(m) {
     money = m;
   }
